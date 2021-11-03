@@ -10,6 +10,16 @@
     "client": "webpack --config ./client/webpack.config.js --watch",
     "server": "nodemon server --watch"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zoe-joblin/Portfolio.git"
