@@ -1,11 +1,15 @@
-import React from 'react';
-// import Container from 'react-bootstrap/Container';
+import React from 'react'
+import NavBar from './Nav'
 
 const Home = () => {
   return (
-   
-      <h1 className="header">Zoe Joblin</h1>
-   
+  <div className="main">
+    <NavBar/>
+    <div className="header">
+      <h2>Zoe Joblin</h2>
+    </div> 
+    
+  </div>
 )}
 
 export default Home

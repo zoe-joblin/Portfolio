@@ -11,15 +11,14 @@ module.exports = {
     rules: [
       { 
         test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/
-      },
-      // {
-      //   test: /\.css$/,
-      //   use: ['style-loader', 'css-loader']
-      // }
+      }
     ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  devServer: {
+    contentBase: path.join(__dirname, '../server/public')
+  }
 }

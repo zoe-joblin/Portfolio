@@ -1,0 +1,70 @@
+body {
+  font-family: 'Tahoma', sans-serif;
+  color:cornsilk;
+  background-color: rgb(211, 182, 231);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* align-items: flex-start; */
+ 
+  /* width: 65%; */
+  /* border: 2px solid #193C0D;
+  text-align: center; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  /* margin: auto; */
+  /* width: 200px; */
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+  color:blueviolet
+}
+
+.nav{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 5px, 5px, 20px, 5px
+}
+.nav button {
+  border: 2px solid cornsilk;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(211, 182, 231);
+  color:cornsilk;
+}
+.nav button:hover {
+  background-color: rgb(180, 129, 228);
+}
+
+
+/* h3 {
+  text-align: left;
+  margin: 5px
+} */
+
+/* Medium screens
+@media all and (max-width: 800px) {
+  .nav {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    /* justify-content: space-around;
+  }
+} */
+
+/* Small screens */
+/* @media all and (max-width: 500px) {
+  .nav {
+    /* On small screens, we are no longer using row direction but column */
+    /* flex-direction: column;
+  }
+} */
