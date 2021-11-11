@@ -1,50 +1,77 @@
 body {
-  font-family: 'Tahoma', sans-serif;
-  color:cornsilk;
-  background-color: rgb(211, 182, 231);
+  color:black;
+  font-family: 'Source Code Pro', monospace;
+  /* margin: 5px */
+  /* background-color: cornsilk; */
+  
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
-  /* align-items: flex-start; */
- 
-  /* width: 65%; */
-  /* border: 2px solid #193C0D;
-  text-align: center; */
+  justify-content: center;
+  align-items: center;
 }
 
-.header {
+.container {
+  background-color: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  /* margin: auto; */
-  /* width: 200px; */
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 40px;
-  color:blueviolet
+  align-items: center;
+  /* height: 60%; */
+  border: 2px solid cornsilk;
+  /* border-radius: 10px; */
+  /* margin: 10px; */
+  padding: 100px 15px 100px 15px;
+  /* margin: 5px; */
+  width: 90vw;
+  height: 100vh;
 }
+.container h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
+  font-size: 40px;
+  /* color:rgb(31, 23, 39); */
+  /* text-decoration: underline; */
+  margin: 5px;
+  /* height: 60%; */
+  text-align: center;
+}
+.container h2 {
+  margin: 5px;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.2rem;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* #projects {
+  background-color:black;
+  color: white;
+} */
 
 .nav{
   display: flex;
   align-items: flex-start;
   flex-direction: row;
+  justify-content: space-around;
   margin: 5px, 5px, 20px, 5px
 }
 .nav button {
-  border: 2px solid cornsilk;
+  border: 2px solid white;
   border-radius: 10px;
   margin: 10px;
-  padding: 5px 15px;
+  padding: 5px;
   font-size: 1.2rem;
-  font-weight: bold;
-  background-color: rgb(211, 182, 231);
-  color:cornsilk;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 200;
+  background-color: white;
+  color: black;
 }
 .nav button:hover {
-  background-color: rgb(180, 129, 228);
+  background-color: rgba(197, 156, 236, 0.801);
 }
 
 
