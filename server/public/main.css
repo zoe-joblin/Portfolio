@@ -32,18 +32,22 @@ body {
   font-family: 'Source Code Pro', monospace;
   font-weight: 300;
   font-size: 40px;
-  /* color:rgb(31, 23, 39); */
-  /* text-decoration: underline; */
   margin: 5px;
-  /* height: 60%; */
   text-align:center;
 }
 .container h2 {
   margin: 5px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 350;
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-family: 'Source Code Pro', monospace;
+}
+.container p {
+  margin: 15px ;
+  text-align: center;
+  font-weight: 350;
+  font-size: 1rem;
   font-family: 'Source Code Pro', monospace;
 }
 .container p {
@@ -55,12 +59,24 @@ body {
 }
 #projects {
   background-color: cornsilk;
-  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px ;
+  height: 50vh;
 }
+
+#project-header {
+  background-color: cornsilk;
+}
+/* .project-div {
+  border: 2px solid black;
+} */
 
 .nav{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   justify-content: space-around;
   margin: 5px, 5px, 20px, 5px

@@ -47,9 +47,11 @@ __webpack_require__.r(__webpack_exports__);
  // import Container from 'react-bootstrap/Container';
 
 var Contact = function Contact() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "header"
-  }, "Contact");
+  }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "zoe.joblin@gmail.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://nz.linkedin.com/in/zoe-joblin-613175215"
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Linkedin"), " "));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);
@@ -84,7 +86,7 @@ var Home = function Home() {
     id: "home"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, " \u2728 Zoe Joblin \u2728 "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Web Development Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Kia ora koutou, ko Zoe Joblin t\u014Dku ingoa. N\u014D Ingarangi, n\u014D Airangi n\u014D Kotirani \u014Dku tipuna. I wh\u0101nau mai au I \u014Ctuatahi engari, kei te Whanganui-a-tara ahau e noho ana ai."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I am a Wellington-based web developer and have recently finished the web development bootcamp at Enspiral Dev Academy. I am a person driven by curiosity and a desire to learn new things, connect with people and create positive change in Aotearoa. This is why I was drawn to the tech industry. I absolutely love the combinations of creativity and process, autonomy and collaboration that are possible within the realm of technology.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container",
-    id: "projects"
+    id: "project-header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container",
     id: "contact"
@@ -142,12 +144,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
- // import Container from 'react-bootstrap/Container';
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
+
+
 
 var Projects = function Projects() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container",
     id: "projects"
-  }, "Projects");
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "project-div"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Awhina"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "A community-focussed app designed to help people request and offer help."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://github.com/zoe-joblin/Aawhina"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Github"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://aawhina.herokuapp.com/"
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Heroku"), " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "project-div"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Plantrackr"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "An app to document all of your house plants and keep track of all of their needs."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://github.com/zoe-joblin/Plantrackr"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, " Github")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://plant-trackr.herokuapp.com/"
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Heroku")))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Projects);
