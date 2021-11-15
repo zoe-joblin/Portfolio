@@ -17,7 +17,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   /* height: 60%; */
   border: 2px solid cornsilk;
@@ -25,8 +25,8 @@ body {
   /* margin: 10px; */
   padding: 100px 15px 100px 15px;
   /* margin: 5px; */
-  width: 90vw;
-  height: 100vh;
+  width: 85vw;
+  height: 80vh;
 }
 .container h1 {
   font-family: 'Source Code Pro', monospace;
@@ -36,21 +36,27 @@ body {
   /* text-decoration: underline; */
   margin: 5px;
   /* height: 60%; */
-  text-align: center;
+  text-align:center;
 }
 .container h2 {
   margin: 5px;
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
   font-size: 1.2rem;
   font-family: 'Source Code Pro', monospace;
 }
-
-/* #projects {
-  background-color:black;
-  color: white;
-} */
+.container p {
+  margin: 15px ;
+  text-align: center;
+  font-weight: 350;
+  font-size: 1rem;
+  font-family: 'Source Code Pro', monospace;
+}
+#projects {
+  background-color: cornsilk;
+  
+}
 
 .nav{
   display: flex;
@@ -66,7 +72,7 @@ body {
   padding: 5px;
   font-size: 1.2rem;
   font-family: 'Source Code Pro', monospace;
-  font-weight: 200;
+  font-weight: 150;
   background-color: white;
   color: black;
 }
@@ -74,24 +80,17 @@ body {
   background-color: rgba(197, 156, 236, 0.801);
 }
 
-
-/* h3 {
-  text-align: left;
-  margin: 5px
-} */
-
-/* Medium screens
+/* Medium screens */
 @media all and (max-width: 800px) {
-  .nav {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
-    /* justify-content: space-around;
+  .nav button {
+    font-size: 1rem;
   }
-} */
+} 
 
-/* Small screens */
-/* @media all and (max-width: 500px) {
-  .nav {
-    /* On small screens, we are no longer using row direction but column */
-    /* flex-direction: column;
+/* Small screens */ 
+ @media all and (max-width: 500px) {
+  .container p {
+    font-weight: 350;
+    font-size: 0.8rem;
   }
-} */
+}
