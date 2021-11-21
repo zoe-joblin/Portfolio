@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import logo from "../../server/public/images/logo"
+
 
 const Projects = () => {
   return (
@@ -7,7 +9,7 @@ const Projects = () => {
     <h1>Projects</h1>
     <div className='container' id='projects'>
       <div className='project-div'>
-        <img src="/Users/zoejoblin/Documents/Portfolio/Portfolio/server/public/logofull.png"></img>
+        <img src={require('/Users/zoejoblin/Documents/Portfolio/Portfolio/server/public/images/logofull.png').default}></img>
         <h2>Awhina</h2>
         <p>A community-focussed app designed to help people request and offer help.</p>
         <a href='https://github.com/zoe-joblin/Aawhina'> 

@@ -145,6 +145,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '../../server/public/images/logo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
 
 
 
@@ -155,7 +157,7 @@ var Projects = function Projects() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "project-div"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "/Users/zoejoblin/Documents/Portfolio/Portfolio/server/public/logofull.png"
+    src: __webpack_require__(/*! ./server/public/images/logofull.png */ "./server/public/images/logofull.png")["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Awhina"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "A community-focussed app designed to help people request and offer help."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://github.com/zoe-joblin/Aawhina"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Github"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
@@ -33311,6 +33313,16 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "./node_modules/scheduler/cjs/scheduler-tracing.development.js");
 }
 
+
+/***/ }),
+
+/***/ "./server/public/images/logofull.png":
+/*!*******************************************!*\
+  !*** ./server/public/images/logofull.png ***!
+  \*******************************************/
+/***/ (() => {
+
+throw new Error("Module parse failed: Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n(Source code omitted for this binary file)");
 
 /***/ })
 
