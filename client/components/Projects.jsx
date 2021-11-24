@@ -1,29 +1,23 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import logo from "../../server/public/images/logo"
-
 
 const Projects = () => {
   return (
   <> 
-    <h1>Projects</h1>
-    <div className='container' id='projects'>
-      <div className='project-div'>
-        <img src={require('/Users/zoejoblin/Documents/Portfolio/Portfolio/server/public/images/logofull.png').default}></img>
+    <h1 id='project-header'>Projects</h1>
+    <div className='projects'>
+      <div className='box'>
+        <img src='images/Screen Shot 2021-11-23 at 1.43.24 PM.png'/>
         <h2>Awhina</h2>
         <p>A community-focussed app designed to help people request and offer help.</p>
-        <a href='https://github.com/zoe-joblin/Aawhina'> 
-        <p>Github</p> </a>
-        <a href='https://aawhina.herokuapp.com/'> <p>Heroku</p> </a>
+        <a href='https://github.com/zoe-joblin/Aawhina'>Github </a>
+        <a href='https://aawhina.herokuapp.com/'>Heroku</a>
       </div>
-      <div className='project-div'>
+      <div className='box'>
         <h2>Plantrackr</h2>
         <p>An app to document all of your house plants and keep track of all of their needs.</p>
-        <a href='https://github.com/zoe-joblin/Plantrackr'> 
-        <p> Github</p> 
-        </a>
-        <a href='https://plant-trackr.herokuapp.com/'> <p>Heroku</p>
-        </a>
+        <a href='https://github.com/zoe-joblin/Plantrackr'> Github</a>
+        <a href='https://plant-trackr.herokuapp.com/'>Heroku</a>
       </div>
     </div>
   </>
